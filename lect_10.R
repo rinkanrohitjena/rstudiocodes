@@ -1,0 +1,1 @@
+For example, a random sample of size 16 from N( μ, σ = 1 ) yields

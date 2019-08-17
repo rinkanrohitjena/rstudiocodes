@@ -1,0 +1,7 @@
+library(RColorBrewer)
+month = c(78, 93, 86, 57, 45, 60, 28, 31, 22, 9, 12, 4)
+treatment = gl (4, 3)
+c.data=cbind(month,treatment)
+lm.mod=lm(month~treatment)
+anova(lm.mod)
+plot()
